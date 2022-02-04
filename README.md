@@ -1,6 +1,9 @@
 # Static-Aviation-APIs
-Aviation Edge Static Aviation APIs provide static data on various, aviation-related subjects that are airports, nearby airports, registered airplanes, airplane models, airlines, cities, countries, and aviation taxes. Each group is provided through its own API with their own filters available.
+Aviation Edge [Static Aviation APIs](https://aviation-edge.com/premium-api/) **(please see the second table below)** provide static data on various, aviation-related subjects that are airports, nearby airports, registered airplanes, airplane models, airlines, cities, countries, and aviation taxes. Each group is provided through its own API with their own filters available.
 A limit to the number of items returned can be set by using the "&limit=X" parameter with each API. This way, the API will return the first "X" items in the database as per the request.
+
+### Documentation
+You may find input parameters, output examples with explanations for each item, filter list, and more in the [documentation](https://aviation-edge.com/developers/).
 
 ## Nearby API
 
@@ -299,5 +302,10 @@ Data on about a specific tax code, input the IATA tax code.
 ]
 ```
 
+### Access & Support
+[Contact us](https://aviation-edge.com/contact/) via email for any questions or support requests.
 
+[Get your API key](https://aviation-edge.com/premium-api/) in a minute and start testing the data right away. The API is provided through API subscriptions. All plans grant access to the Airport Schedules API and other APIs with a difference of the monthly API call limit. Choose the best plan for you and upgrade, downgrade or cancel your plan anytime without  commitments.
 
+### License
+The use of the API is subject to Aviation Edge [Terms and Conditions](https://aviation-edge.com/api-terms-of-service/).
