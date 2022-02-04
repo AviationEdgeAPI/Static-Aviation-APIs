@@ -1,5 +1,5 @@
 # Static-Aviation-APIs
-Aviation Edge [Static Aviation APIs](https://aviation-edge.com/premium-api/) **(please see the second table below)** provide static data on various, aviation-related subjects that are airports, nearby airports, registered airplanes, airplane models, airlines, cities, countries, and aviation taxes. Each group is provided through its own API with their own filters available.
+Aviation Edge [Static Aviation APIs](https://aviation-edge.com/premium-api/) **(please see the second table on the hyperlinked page)** provide static data on various, aviation-related subjects that are airports, nearby airports, registered airplanes, airplane models, airlines, cities, countries, and aviation taxes. Each group is provided through its own API with their own filters available.
 A limit to the number of items returned can be set by using the "&limit=X" parameter with each API. This way, the API will return the first "X" items in the database as per the request.
 
 ### Documentation
