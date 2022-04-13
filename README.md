@@ -10,7 +10,7 @@ You may find input parameters, output examples with explanations for each item, 
 ### Request 
 Airports and cities nearby a certain latitude or longitude, within a certain distance in radius:
 
-**GET** http://aviation-edge.com/v2/public/nearby?key=[API_KEY]&lat=-5.466667&lng=122.6333&distance=100
+**GET** `http://aviation-edge.com/v2/public/nearby?key=[API_KEY]&lat=-5.466667&lng=122.6333&distance=100`
 
 ### Response
 ```
@@ -53,15 +53,15 @@ Airports and cities nearby a certain latitude or longitude, within a certain dis
 ### Request 
 Entire database of airlines:
 
-**GET** https://aviation-edge.com/v2/public/airlineDatabase?key=[API_KEY]
+**GET** `https://aviation-edge.com/v2/public/airlineDatabase?key=[API_KEY]`
 
 Data on a specific airline, you can search based on IATA airline code:
 
-**GET** https://aviation-edge.com/v2/public/airlineDatabase?key=[API_KEY]&codeIataAirline=AA
+**GET** `https://aviation-edge.com/v2/public/airlineDatabase?key=[API_KEY]&codeIataAirline=AA`
 
 Airlines based on the country code:
 
-**GET** https://aviation-edge.com/v2/public/airlineDatabase?key=[API_KEY]&codeIso2Country=US
+**GET** `https://aviation-edge.com/v2/public/airlineDatabase?key=[API_KEY]&codeIso2Country=US`
 
 ### Response
 ```
@@ -90,19 +90,19 @@ Airlines based on the country code:
 ### Request 
 Entire database of airplanes:
 
-**GET** https://aviation-edge.com/v2/public/airplaneDatabase?key=[API_KEY]
+**GET** `https://aviation-edge.com/v2/public/airplaneDatabase?key=[API_KEY]`
 
 Data on a specific airplane based on registration number. 
 
-**GET** https://aviation-edge.com/v2/public/airplaneDatabase?key=[API_KEY]&numberRegistration=HB-JVE
+**GET** `https://aviation-edge.com/v2/public/airplaneDatabase?key=[API_KEY]&numberRegistration=HB-JVE`
 
 Airplanes based on the hex ICAO code. 
 
-**GET** https://aviation-edge.com/v2/public/airplaneDatabase?key=[API_KEY]&hexIcaoAirplane=4B19EA
+**GET** `https://aviation-edge.com/v2/public/airplaneDatabase?key=[API_KEY]&hexIcaoAirplane=4B19EA`
 
 Data on airplanes of a specific airline based on airline IATA code. 
 
-**GET** https://aviation-edge.com/v2/public/airplaneDatabase?key=[API_KEY]&codeIataAirline=AA
+**GET** `https://aviation-edge.com/v2/public/airplaneDatabase?key=[API_KEY]&codeIataAirline=AA`
 
 ### Response
 ```
@@ -141,11 +141,11 @@ Data on airplanes of a specific airline based on airline IATA code.
 ### Request 
 Entire database of Aircraft types:
 
-**GET** https://aviation-edge.com/v2/public/planeTypeDatabase?key=[API_KEY]
+**GET** `https://aviation-edge.com/v2/public/planeTypeDatabase?key=[API_KEY]`
 
 Data on a specific Aircraft type based on the IATA code:
 
-**GET** https://aviation-edge.com/v2/public/planeTypeDatabase?key=[API_KEY]&codeIataAircraft=100
+**GET** `https://aviation-edge.com/v2/public/planeTypeDatabase?key=[API_KEY]&codeIataAircraft=100`
 
 ### Response
 ```
@@ -182,15 +182,15 @@ Data on a specific Aircraft type based on the IATA code:
 ### Request 
 Entire database of airports:
 
-**GET** https://aviation-edge.com/v2/public/airportDatabase?key=[API_KEY]
+**GET** `https://aviation-edge.com/v2/public/airportDatabase?key=[API_KEY]`
 
 Data on a specific airport based on IATA code:
 
-**GET** https://aviation-edge.com/v2/public/airportDatabase?key=[API_KEY]&codeIataAirport=AAH
+**GET** `https://aviation-edge.com/v2/public/airportDatabase?key=[API_KEY]&codeIataAirport=AAH`
 
 Airports in a country:
 
-**GET** https://aviation-edge.com/v2/public/airportDatabase?key=[API_KEY]&codeIso2Country=DE
+**GET** `https://aviation-edge.com/v2/public/airportDatabase?key=[API_KEY]&codeIso2Country=DE`
 
 ### Response
 ```
@@ -218,15 +218,15 @@ Airports in a country:
 ### Request 
 Entire database of cities. 
 
-**GET** https://aviation-edge.com/v2/public/cityDatabase?key=[API_KEY]
+**GET** `https://aviation-edge.com/v2/public/cityDatabase?key=[API_KEY]`
 
 Data on a specific city based on IATA code. 
 
-**GET** https://aviation-edge.com/v2/public/cityDatabase?key=[API_KEY]&codeIataCity=MAN
+**GET** `https://aviation-edge.com/v2/public/cityDatabase?key=[API_KEY]&codeIataCity=MAN`
 
 Cities in a specific country:
 
-**GET** https://aviation-edge.com/v2/public/cityDatabase?key=[API_KEY]&codeIso2Country=GB
+**GET** `https://aviation-edge.com/v2/public/cityDatabase?key=[API_KEY]&codeIso2Country=GB`
 
 ### Response
 ```
@@ -250,15 +250,15 @@ Cities in a specific country:
 ### Request 
 Entire database of countries:
 
-**GET** https://aviation-edge.com/v2/public/countryDatabase?key=[API_KEY]
+**GET** `https://aviation-edge.com/v2/public/countryDatabase?key=[API_KEY]`
 
 Data on a specific country based on ISO code:
 
-**GET** https://aviation-edge.com/v2/public/countryDatabase?key=[API_KEY]&codeIso2Country=AD 
+**GET** `https://aviation-edge.com/v2/public/countryDatabase?key=[API_KEY]&codeIso2Country=AD`
 
 Data on a specific country based on name: 
 
-**GET** https://aviation-edge.com/v2/public/countryDatabase?key=[API_KEY]&nameCountry=Andorra
+**GET** `https://aviation-edge.com/v2/public/countryDatabase?key=[API_KEY]&nameCountry=Andorra`
 
 ### Response
 ```
@@ -285,11 +285,11 @@ Data on a specific country based on name:
 ### Request 
 Entire database of taxes:
 
-**GET** https://aviation-edge.com/v2/public/taxDatabase?key=[API_KEY]
+**GET** `https://aviation-edge.com/v2/public/taxDatabase?key=[API_KEY]`
 
 Data on about a specific tax code, input the IATA tax code.
 
-**GET** https://aviation-edge.com/v2/public/taxDatabase?key=[API_KEY]&codeIataTax=AC 
+**GET** `https://aviation-edge.com/v2/public/taxDatabase?key=[API_KEY]&codeIataTax=AC`
 
 ### Response
 ```
